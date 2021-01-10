@@ -1,0 +1,79 @@
+
+.section-part{
+    
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text1{
+    margin-top: 50px;
+}
+.section-text>p {
+    margin-top: 50px;
+
+}
+.section-box{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 30px;
+  border-style: hidden;
+  border-color: blue;
+  background-color: blue;
+  padding: 10px;
+  border-bottom-left-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+  border-top-left-radius: 15px 15px;
+  border-top-right-radius: 15px 15px;
+  color: white;
+  background: linear-gradient(to  top right, #0000FF , 	#00FFFF);
+
+    
+}
+.list{
+    list-style-position: inside;
+    list-style: none;
+    
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+  
+  .list li::before {
+    content: "\2022"; 
+    color: white; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+  
+.section-box1{
+
+  border-style: hidden;
+  border-color: blue;
+  background-color: blue;
+  padding: 10px;
+
+  color: white;
+  background: linear-gradient(to  top right, #0000FF , 	#00FFFF);
+
+    
+}
+.list1{
+    list-style-position: inside;
+    list-style: none;
+    
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+  
+  .list1 li::before {
+    content: "\2022"; 
+    color: white; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
